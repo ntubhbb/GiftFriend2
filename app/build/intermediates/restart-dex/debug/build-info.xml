@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="armeabi-v7a,armeabi"
-    api-level="21"
+    api-level="23"
     density="xhdpi"
     format="7"
-    timestamp="32461218223387" >
+    timestamp="1225445948440459" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="391" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -19,11 +19,35 @@
         name="verifier"
         duration="0" />
 
-    <build timestamp="32315036608033" >
+    <artifact
+        location="C:\Users\105409\Desktop\GiftFriend2\app\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
+
+    <build timestamp="1220787849921212" >
         <artifact
-            location="/Users/How.Short/Desktop/GiftFriend-master-2/app/build/intermediates/res/resources-debug.ap_"
+            location="C:\Users\105409\Desktop\GiftFriend2\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="1225281625431582"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="C:\Users\105409\Desktop\GiftFriend2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\105409\Desktop\GiftFriend2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\105409\Desktop\GiftFriend2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\105409\Desktop\GiftFriend2\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="1225445948440459" >
+        <artifact
+            location="C:\Users\105409\Desktop\GiftFriend2\app\build\intermediates\res\resources-debug.ap_"
             type="RESOURCES" />
     </build>
-    <build timestamp="32461218223387" />
 
 </instant-run>

@@ -9,13 +9,14 @@
     tools:context="com.example.gf.giftfriend.FinishLogin"
     android:orientation="vertical">
 
-    <LinearLayout
-        android:orientation="vertical"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/linearLayout7">
-
-    </LinearLayout>
+        android:text="Welcome to GiftFriend"
+        android:textSize="30dp"
+        android:id="@+id/textView13"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -29,8 +30,6 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_weight="0.075"
             android:layout_marginBottom="3dp">
 
             <Button
@@ -38,13 +37,14 @@
                 android:layout_height="wrap_content"
                 android:text="加入好友"
                 android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:gravity="fill_vertical"
                 android:id="@+id/btn_add"
-                android:drawableTop="@drawable/ic_addfriend"
-                android:background="@drawable/button_layout"
-                android:elegantTextHeight="false"
-                android:paddingBottom="5dp"
-                android:layout_weight="0.075"
-                android:paddingTop="10dp" />
+                android:drawableLeft="@drawable/ic_addfriend"
+                android:drawablePadding="50dp"
+                android:background="@drawable/btn_style"
+                android:paddingLeft="8dp"
+                />
 
         </LinearLayout>
 
@@ -59,14 +59,13 @@
                 android:layout_height="wrap_content"
                 android:text="掃描"
                 android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:gravity="fill_vertical"
                 android:id="@+id/btn_scan"
-                android:drawableTop="@drawable/ic_sanner"
-                android:paddingTop="10dp"
-                android:layout_alignParentRight="true"
-                android:layout_centerInParent="true"
+                android:drawableLeft="@drawable/ic_sanner"
+                android:drawablePadding="50dp"
                 android:background="@drawable/button_layout"
-                android:paddingBottom="5dp"
-                android:layout_weight="0.075" />
+                android:paddingLeft="8dp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -80,14 +79,13 @@
                 android:layout_height="wrap_content"
                 android:text="上傳"
                 android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:gravity="fill_vertical"
                 android:id="@+id/btn_upload"
-                android:drawableTop="@drawable/ic_cloud"
-                android:paddingTop="10dp"
-                android:layout_below="@+id/button2"
+                android:drawableLeft="@drawable/ic_cloud"
+                android:drawablePadding="50dp"
                 android:background="@drawable/button_layout"
-                android:paddingBottom="5dp"
-                android:layout_weight="0.075"
-                />
+                android:paddingLeft="8dp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -101,13 +99,13 @@
                 android:layout_height="wrap_content"
                 android:text="歷史紀錄"
                 android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:gravity="fill_vertical"
                 android:id="@+id/btn_record"
-                android:drawableTop="@drawable/ic_history"
-                android:paddingTop="10dp"
-                android:layout_below="@+id/button"
+                android:drawableLeft="@drawable/ic_history"
+                android:drawablePadding="50dp"
                 android:background="@drawable/button_layout"
-                android:paddingBottom="5dp"
-                android:layout_weight="0.075" />
+                android:paddingLeft="8dp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -121,24 +119,34 @@
                 android:layout_height="wrap_content"
                 android:text="網頁介紹"
                 android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:gravity="fill_vertical"
                 android:id="@+id/btn_page"
-                android:drawableTop="@drawable/ic_global"
+                android:drawableLeft="@drawable/ic_global"
+                android:drawablePadding="50dp"
                 android:background="@drawable/button_layout"
-                android:elegantTextHeight="false"
-                android:paddingBottom="5dp"
-                android:layout_weight="0.075"
-                android:paddingTop="10dp" />
+                android:paddingLeft="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="下載"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:gravity="fill_vertical"
+                android:id="@+id/btn_download"
+                android:background="@drawable/button_layout"
+                android:drawablePadding="50dp"
+                android:drawableLeft="@drawable/ic_download"
+                android:paddingLeft="8dp"/>
         </LinearLayout>
     </LinearLayout>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome to GiftFriend"
-        android:textSize="30dp"
-        android:id="@+id/textView13"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
 
